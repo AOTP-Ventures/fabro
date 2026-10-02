@@ -193,3 +193,15 @@ opt-level = 2
 opt-level = 2
 [profile.dev.package.regex-syntax]
 opt-level = 2
+
+[patch."https://github.com/lithoscomputer/sandbox-driver"]
+sandbox-driver = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-cli = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-conformance = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-daytona = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-daytona-config = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-docker = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-docker-config = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-host = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-protocol = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }
+sandbox-driver-testing = { git = "https://github.com/AOTP-Ventures/sandbox-driver", rev = "13fc054b70b5b3b43144139c8c7cda725716e6d3" }

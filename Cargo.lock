@@ -6287,7 +6287,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "async-trait",
  "globset",
@@ -6304,7 +6304,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-daytona"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -6332,7 +6332,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-daytona-config"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "sandbox-driver-docker-config",
  "serde",
@@ -6342,7 +6342,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-docker"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -6363,7 +6363,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-docker-config"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "serde",
  "serde_json",
@@ -6372,7 +6372,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-host"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -6390,7 +6390,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-protocol"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "async-trait",
  "base64",
@@ -6407,7 +6407,7 @@ dependencies = [
 [[package]]
 name = "sandbox-driver-testing"
 version = "0.1.0"
-source = "git+https://github.com/lithoscomputer/sandbox-driver?branch=main#7d1932b5fd758dbc67ae5a34aaed08d8733ddaba"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
 dependencies = [
  "async-trait",
  "sandbox-driver",
@@ -9166,3 +9166,13 @@ dependencies = [
  "cc",
  "pkg-config",
 ]
+
+[[patch.unused]]
+name = "sandbox-driver-cli"
+version = "0.1.0"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
+
+[[patch.unused]]
+name = "sandbox-driver-conformance"
+version = "0.1.0"
+source = "git+https://github.com/AOTP-Ventures/sandbox-driver?rev=13fc054b70b5b3b43144139c8c7cda725716e6d3#13fc054b70b5b3b43144139c8c7cda725716e6d3"
